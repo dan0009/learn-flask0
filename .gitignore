@@ -93,3 +93,7 @@ ENV/
 /venv/
 /routes.py
 /LICENSE
+/Procfile
+Procfile
+requirements.txt
+/requirements.txt
