@@ -11,5 +11,10 @@
       <introspection-scope>postgres:pg_catalog,postgres,public</introspection-scope>
       <resolve-scope>postgres:postgres,public</resolve-scope>
     </data-source>
+    <data-source name="PostgreSQL - postgres@localhost" uuid="619273ba-149e-4346-b82b-1e9c8fa3f783">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+    </data-source>
   </component>
 </project>
