@@ -9,8 +9,8 @@
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2016-11-19.09:08:06.088</IntrospectionTimestamp>
-      <IntrospectionStateNumber>546</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2016-11-19.11:40:12.036</IntrospectionTimestamp>
+      <IntrospectionStateNumber>551</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -30,53 +30,57 @@
       <ObjectId>12113</ObjectId>
     </schema>
     <sequence id="9" parent="3" name="users_uid_seq">
-      <ObjectId>16394</ObjectId>
-      <StateNumber>545</StateNumber>
+      <ObjectId>16403</ObjectId>
+      <StateNumber>548</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
     </sequence>
     <table id="10" parent="3" name="users">
-      <ObjectId>16396</ObjectId>
-      <StateNumber>545</StateNumber>
+      <ObjectId>16405</ObjectId>
+      <StateNumber>551</StateNumber>
     </table>
     <column id="11" parent="10" name="uid">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>545</StateNumber>
+      <StateNumber>548</StateNumber>
       <DefaultExpression>nextval(&apos;users_uid_seq&apos;::regclass)</DefaultExpression>
     </column>
     <column id="12" parent="10" name="firstname">
       <Position>2</Position>
       <DataType>varchar(100)|0</DataType>
-      <StateNumber>545</StateNumber>
+      <NotNull>1</NotNull>
+      <StateNumber>548</StateNumber>
     </column>
     <column id="13" parent="10" name="lastname">
       <Position>3</Position>
       <DataType>varchar(100)|0</DataType>
-      <StateNumber>545</StateNumber>
+      <NotNull>1</NotNull>
+      <StateNumber>548</StateNumber>
     </column>
     <column id="14" parent="10" name="email">
       <Position>4</Position>
       <DataType>varchar(120)|0</DataType>
-      <StateNumber>545</StateNumber>
+      <NotNull>1</NotNull>
+      <StateNumber>548</StateNumber>
     </column>
     <column id="15" parent="10" name="pwdhash">
       <Position>5</Position>
       <DataType>varchar(54)|0</DataType>
-      <StateNumber>545</StateNumber>
+      <NotNull>1</NotNull>
+      <StateNumber>551</StateNumber>
     </column>
     <index id="16" parent="10" name="users_pkey">
-      <ObjectId>16400</ObjectId>
+      <ObjectId>16409</ObjectId>
       <ColNames>uid</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="17" parent="10" name="users_email_uindex">
-      <ObjectId>16402</ObjectId>
+      <ObjectId>16411</ObjectId>
       <ColNames>email</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="18" parent="10" name="users_pkey">
-      <ObjectId>16401</ObjectId>
+      <ObjectId>16410</ObjectId>
       <ColNames>uid</ColNames>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
