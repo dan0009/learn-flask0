@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="785047c1-df4b-4085-a487-17cf6f050ba1" name="test" url="https://desolate-dawn-79056.herokuapp.com/">
+        <fileTransfer port="0" mountedRoot="C:\Python\heroku\learn-flask0" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
