@@ -1,5 +1,3 @@
-import os
-
 from flask import Flask, render_template, request, session, redirect, url_for
 
 from forms import SignupForm, LoginForm, AddressForm
@@ -7,7 +5,9 @@ from models import db, User, Place
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']  # add your Heroku Postgres database URL here
+app.config[
+  'SQLALCHEMY_DATABASE_URI'] = database = '"learningflask", user="postgres", password="noway123", host="127.0.0.1", port="5432"'
+# add your Heroku Postgres database URL here
 
 db.init_app(app)
 
