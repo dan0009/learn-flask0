@@ -12,13 +12,15 @@ db.init_app(app)
 
 app.secret_key = "development-key"
 
+
 @app.route("/")
 def index():
-  return render_template("index.html")
+    return render_template("index.html")
+
 
 @app.route("/about")
 def about():
-  return render_template("about.html")
+    return render_template("about.html")
 
 
 @app.route("/signup", methods=['GET', 'POST'])
@@ -73,8 +75,8 @@ def logout():
 
 @app.route("/home", methods=["GET", "POST"])
 def home():
-    # if 'email' not in session:
-    # return redirect(url_for('login'))
+    if 'email' not in session:
+        return redirect(url_for('login'))
 
     form = AddressForm()
 
@@ -101,4 +103,4 @@ def home():
 
 
 if __name__ == "__main__":
-  app.run(debug=True)
+    app.run(debug=True)
