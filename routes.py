@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, request, session, redirect, url_for
 
 from forms import SignupForm, LoginForm, AddressForm
-from models import db, User
+from models import db, User, Place
 
 app = Flask(__name__)
 
