@@ -56,6 +56,10 @@
 
     // Now add the layer onto the map
     map.addLayer(layer);
+
+    // It even opens up a popup when you click it!
+    L.marker([40.712, -74.006]).addTo(map)
+        .bindPopup("<strong>Henry Street School</strong>").openPopup();
 </script>
 
 {% endblock %}
