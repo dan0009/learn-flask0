@@ -60,8 +60,11 @@
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-              <folding />
+              <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+              <folding>
+                <marker date="1479782516420" expanded="true" signature="1780:1786" ph="©" />
+                <marker date="1479782516420" expanded="true" signature="1868:1874" ph="©" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -647,13 +650,6 @@
       <option name="presentableId" value="Default" />
       <updated>1478995277559</updated>
     </task>
-    <task id="LOCAL-00015" summary="Initial commit">
-      <created>1479430821001</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1479430821001</updated>
-    </task>
     <task id="LOCAL-00016" summary="Initial commit">
       <created>1479435645017</created>
       <option name="number" value="00016" />
@@ -990,7 +986,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479780753210</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Initial commit">
+      <created>1479782260276</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1479782260276</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1472,8 +1475,11 @@
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding />
+          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <marker date="1479782516420" expanded="true" signature="1780:1786" ph="©" />
+            <marker date="1479782516420" expanded="true" signature="1868:1874" ph="©" />
+          </folding>
         </state>
       </provider>
     </entry>
